@@ -106,27 +106,25 @@ img.main {
     padding-right: 10vh;
     box-sizing: border-box;
     transition: 1s;
+    left: -14vh;
 }
 
 .box_color1 {
     background: #8B3D3D;
     bottom: 66vh;
     line-height: 14vh;
-    left: -300px
 }
 
 .box_color2 {
     background: #602424;
     bottom: 52vh;
     line-height: 14vh;
-    left: -300px
 }
 
 .box_color3 {
     background: #580000;
     bottom: 38vh;
     line-height: 14vh;
-    left: -300px;
 }
 
 #page2_text {
