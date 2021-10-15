@@ -10,19 +10,31 @@
     <link rel="stylesheet" href="css/main.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
 </head>
 
 <body>
     <div id="wrap">
         <!-- section1 -->
-        <div id="section">
+        <div id="section1">
+            <div id="bg_img">
+                <img class="main" src="images/main.png">
+            </div>
             <div id="text_box">
-                <div id="page1_text" class="text1">AI for Improvement and Influence</div>
+                <div id="page1_text" class="text1">
+                    <div>
+                        A2I
+                    </div>
+                    <div>
+                        AI for Improvement and Influence
+                    </div>
+                    <div>
+                        Improve the quality of mankind life and influence on social culture through
+                        the development of AI solution
+                    </div>
+                </div>
                 <div id="page1_text" class="text2">Design your life yourself</div>
             </div>
-        </div>
-        <div id="bg_img">
-            <img class="main" src="images/main.png">
         </div>
         <!-- section2 -->
         <div id="section2">
@@ -30,37 +42,41 @@
             <div id="slide_box" class="box_color2">IT</div>
             <div id="slide_box" class="box_color3">AI</div>
             <div id="page2_text">
-                AI 솔루션으로 당신의 삶을 더욱 아름답게,<br>
-                “의,식,주” 를 아우르는 라이프스타일을 제공합니다.
+                <span>“의,식,주” 를 아우르는 라이프스타일을 제공합니다.</span><br>
+                AI 솔루션으로 당신의 삶을 더욱 아름답게...
             </div>
-        </div>
-        <div id="supbanner">
-            <img src="images/supbanner.jpg">
+            <div id="page2_text1">
+                AI 솔루션을 통해서<br>
+                당신의 라이프스타일을 즐기세요!
+            </div>
+            <div id="supbanner">
+                <img src="images/supbanner.jpg">
+            </div>
         </div>
         <!-- section3 -->
         <div id="section3">
             <div class="title">적용분야</div>
             <div id="img_box">
                 <div id="box">
-                    <img src="images/beauty.jpg">
+                    <img src="images/beauty.jpg" id="btn1_1">
                     <div class="hover_box" id="btn1">
                         Beauty
                     </div>
                 </div>
                 <div id="box">
-                    <img src="images/makeup.jpg">
+                    <img src="images/makeup.jpg" id="btn2_1">
                     <div class="hover_box" id="btn2">
                         Make-up
                     </div>
                 </div>
                 <div id="box">
-                    <img src="images/interior.jpg">
+                    <img src="images/interior.jpg" id="btn3_1">
                     <div class="hover_box" id="btn3">
                         Interior
                     </div>
                 </div>
                 <div id="box">
-                    <img src="images/fashoin.jpg">
+                    <img src="images/fashoin.jpg" id="btn4_1">
                     <div class="hover_box" id="btn4">
                         Fashion
                     </div>
@@ -70,25 +86,24 @@
         <div id="bg_box"></div>
         <!-- section4 -->
         <div id="section4">
-            <div class="title">ABOUT US</div>
-            <div id="menu">
+            <div class="title2">ABOUT US</div>
+            <div id="menu" class="bg_menu1">
                 <img src="images/introduction.jpg" class="btn_m1">
                 <div class="menu_text">INTRODUCTION</div>
             </div>
-            <div id="menu">
+            <div id="menu" class="bg_menu2">
                 <img src="images/history.jpg" class="btn_m2">
                 <div class="menu_text">HISTORY</div>
             </div>
-            <div id="menu">
+            <div id="menu" class="bg_menu3">
                 <img src="images/member.jpg" class="btn_m3">
                 <div class="menu_text">MEMBERS</div>
             </div>
-            <div id="menu">
+            <div id="menu" class="bg_menu4">
                 <img src="images/direction.jpg" class="btn_m4">
                 <div class="menu_text">DIRECTION</div>
             </div>
         </div>
-        <div id="menu_bg"></div>
 
         <!-- section_sup -->
         <div id="sup_content" class="num1">
@@ -98,11 +113,11 @@
                         Beauty
                     </div>
                     <div class="flt_text2">
-                        염색,<br>
-                        더 이상 어려운 일이 아닙니다.
+                        헤어 스타일,<br>
+                        더 이상 고민하지마세요.
                     </div>
                     <div class="flt_text3">
-                        AI 기술로 원하는 색상을<br>
+                        AI 기술로 원하는 스타일을<br>
                         미리 확인 할 수 있습니다.
                     </div>
                 </div>
@@ -186,8 +201,7 @@
                         인공지능 솔루션을 기반으로 고객의 취향이 존중되어 고객이 원하는 서비스를 즉시 제공 받을 수 있는 사회문화 기술 구현<br><br>
                         <span>사명(Mission)</span><br>
                         A2I: AI for 2I / AI for Improvement and Influence<br>
-                        인공지능 솔루션 개발을 통해서 인류 삶의 질을 향상(Improvement) 시키고,<br>
-                        사회문화에 영향(Influence)을 미친다.<br><br>
+                        인공지능 솔루션 개발을 통해서 인류 삶의 질을 향상(Improvement) 시키고, 사회문화에 영향(Influence)을 미친다.<br><br>
                         <span>핵심가치(Core Value)</span><br>
                         소비자와 시공업자 간의 직접거래를 통한 비용절감 및 소비자의 개인취향 존중<br><br>
                         <span>경쟁력(Competancy)</span><br>
@@ -201,16 +215,18 @@
             <div id="filter2">
                 <div class="flt_text_box2">
                     <div class="text_con">
-                        <span>비전(Vision)</span><br>
-                        인공지능 솔루션을 기반으로 고객의 취향이 존중되어 고객이 원하는 서비스를 즉시 제공 받을 수 있는 사회문화 기술 구현<br><br>
-                        <span>사명(Mission)</span><br>
-                        A2I: AI for 2I / AI for Improvement and Influence<br>
-                        인공지능 솔루션 개발을 통해서 인류 삶의 질을 향상(Improvement) 시키고,<br>
-                        사회문화에 영향(Influence)을 미친다.<br><br>
-                        <span>핵심가치(Core Value)</span><br>
-                        소비자와 시공업자 간의 직접거래를 통한 비용절감 및 소비자의 개인취향 존중<br><br>
-                        <span>경쟁력(Competancy)</span><br>
-                        모바일 위치기반 서비스를 활용한 지역기반 인력 매칭 및 AR기반 가상디자인 적용 시스템을 활용하여 셀프인테리어 구현 플랫폼 개발
+                        <span>연혁</span><br>
+                        <span>21년 10월 ~</span> 베어코리아(베어페인트 공식수입원) 사업협력: 플랫폼 테스트<br>
+                        <span>21년 9월~22년1월</span> 중소기업기술정보진흥원 주관, 2021년 R&D멘토링 2기 사업 참여<br>
+                        <span>21년 7월~11월</span> 화성산업진흥원 주관, 엑셀러레이팅 연계 지원사업 참여<br>
+                        <span>21년 6월 ~</span> 경기테크노파크 주관, 기술닥터 사업진행(AR 기술 고도화)<br>
+                        <span>21년 6월 ~</span> 알파버전 앱 “가칭, 딱(Ttag)” 개발 완료/성능 테스트 및 최적화 진행<br>
+                        <span>21년 5월~12월</span> "과학기술정보통신부 산하 K-ICT창업멘토링센터 주관,
+                        “K-Global 창업멘토링 지원사업” 참여"<br>
+                        <span>21년 5월</span> 특허출원(1건), 출원번호: 10-2021-0058877<br>
+                        <span>21년 4월~5월</span> GBSA 주관, 창업실전교육(50시간) 수료/피칭대회 최우수상 수상<br>
+                        <span>21년 3월</span> 연구개발전담부서 개설 승인<br>
+                        <span>21년 1월</span> 에이투아이(주) 설립(자본금 5천만 원)
                     </div>
                 </div>
             </div>
@@ -230,7 +246,8 @@
             <div id="filter2">
                 <div class="flt_text_box2">
                     <div class="text_con">
-                        <a href="https://www.google.co.kr/maps/place/%EB%A9%94%EA%B0%80%EB%B9%84%EC%A6%88%ED%83%80%EC%9B%8CA/@37.2108431,127.09874,16.51z/data=!4m9!1m2!2m1!1z66mU6rCA67mE7KaI7YOA7JuMQg!3m5!1s0x357b454d2c3ed217:0x4ee25de8fd84d8b8!8m2!3d37.211238!4d127.0992127!15sChPrqZTqsIDruYTspojtg4Dsm4xCkgEQY29ycG9yYXRlX29mZmljZQ?hl=ko" target="_blank">
+                        <a href="https://www.google.co.kr/maps/place/%EB%A9%94%EA%B0%80%EB%B9%84%EC%A6%88%ED%83%80%EC%9B%8CA/@37.2108431,127.09874,16.51z/data=!4m9!1m2!2m1!1z66mU6rCA67mE7KaI7YOA7JuMQg!3m5!1s0x357b454d2c3ed217:0x4ee25de8fd84d8b8!8m2!3d37.211238!4d127.0992127!15sChPrqZTqsIDruYTspojtg4Dsm4xCkgEQY29ycG9yYXRlX29mZmljZQ?hl=ko"
+                            target="_blank">
                             <img src="images/map.png">
                         </a>
                     </div>
